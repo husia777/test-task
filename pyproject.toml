@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "task-back"
+version = "0.1.0"
+description = ""
+authors = ["Husein Naimov <huseinnaimov72@gmail.com>"]
+readme = "README.md"
+packages = [{include = "task_back"}]
+
+[tool.poetry.dependencies]
+python = "3.11.7"
+aiohttp = "^3.9.1"
+alembic = "^1.13.1"
+psycopg2-binary = "^2.9.9"
+sqlalchemy = "^2.0.23"
+asyncpg = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
