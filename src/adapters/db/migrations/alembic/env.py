@@ -5,9 +5,9 @@ from alembic import context
 import asyncio
 from logging.config import fileConfig
 
-from src.infrastructure.db.connection import Base
-from src.infrastructure.db.config import settings
-from src.infrastructure.db.models.task import Task
+from src.adapters.db.connection import Base
+from src.adapters.db.config import settings
+from src.adapters.db.models.user import User
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
